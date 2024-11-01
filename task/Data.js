@@ -1,4 +1,4 @@
-export class Data {
+class Data {
   constructor(database) {
     this.database = database;
     console.log("Connecting to database"); 
@@ -20,3 +20,5 @@ export class Data {
     console.log(`Inserting ${object.getName()} into table ${table}`); 
   }
 }
+
+module.exports = Data;

@@ -1,6 +1,6 @@
-import { Cat } from "./Cat.js";
+const Cat = require("./Cat");
 
-export class Dog extends Cat {
+class Dog extends Cat {
   constructor(
     name = "Barkie",
     age = Math.floor(Math.random() * 6) + 5,
@@ -13,3 +13,5 @@ export class Dog extends Cat {
     super.speak(sound);
   }
 }
+
+module.exports = Dog;

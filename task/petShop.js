@@ -1,6 +1,6 @@
-import { Cat } from "./Cat.js";
-import { Dog } from "./Dog.js";
-import { Data } from "./Data.js";
+const Cat = require("./Cat");
+const Dog = require("./Dog");
+const Data = require("./Data");
 
 const saveTest = () => {
   const data = new Data("petShop");

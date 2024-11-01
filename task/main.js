@@ -1,6 +1,6 @@
-import { Cat } from "./Cat.js";
-import { Dog } from "./Dog.js";
-import { Data } from "./Data.js";
+const Cat = require("./Cat");
+const Dog = require("./Dog");
+const Data = require("./Data");
 
 const cat = new Cat("Garfield", 5, "fish");
 const dog = new Dog();
@@ -14,16 +14,14 @@ const data = new Data();
 
 data.insert("Cat", cat);
 
-
-cat.speak('meeeeeeeaeeeeeeaowwww');
-console.log(dog.getAge())
+cat.speak("meeeeeeeaeeeeeeaowwww");
+console.log(dog.getAge());
 dog.speak();
 dog.speak();
 dog.speak();
 dog.speak();
 dog.speak();
-console.log(dog.getAge())
-
+console.log(dog.getAge());
 
 console.log(cat.getName());
 console.log(dog.getName());
@@ -37,10 +35,3 @@ console.log(dog.getNames());
 
 console.log(cat.getAverageNameLength());
 console.log(dog.getAverageNameLength());
-
-
-
-
-
-
-

@@ -1,4 +1,4 @@
-export class Cat {
+class Cat {
   constructor(
     name = "Floofy",
     age = Math.floor(Math.random() * 6) + 5,
@@ -54,3 +54,5 @@ export class Cat {
     );
   }
 }
+
+module.exports = Cat;
