@@ -17,6 +17,6 @@ export class Data {
   }
 
   insert(table, object) {
-    console.log("Inserting " + object.getName() + " into table " + table);
+    console.log(`Inserting ${object.getName()} into table ${table}`); 
   }
 }
