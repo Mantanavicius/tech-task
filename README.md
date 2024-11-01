@@ -12,7 +12,7 @@ This repository contains a homework assignment for a front-end developer role.
 node -v
 ```
 
-If this command returns a version number (e.g., v20.14.0), you have Node.js installed. If not, follow the instructions on the Node.js website to install it.
+If this command returns a version number (e.g., v20.14.0), you have Node.js installed. If not, you can just follow the instructions on the Node.js website to install it.
 
 ## How to install:
 
@@ -39,7 +39,7 @@ npm test
 
 ## Running individual files
 
-You can run individual files by using command:
+You can run individual files by using the command:
 
 ```bash
 node [file-you-want-to-run]
@@ -54,10 +54,11 @@ node [file-you-want-to-run]
 - `task/`: the folder that contains all of the files used for the assignment
   - `Cat.js` and `Dog.js`: classes representing a cat and a dog
   - `Data.js`: a class representing a database
+  - `main.js`: file to informally test out some of the functionality of the classes described above.
   - `petShop.js`: a script that creates a pet shop and saves it to a database
   - `tests/`: contains unit tests for the Cat.js
 
-## Why did I do the things the way I did?
+## Why did I do things the way I did?
 
 - I chose `JavaScript` for these tasks, as it’s the language I’m most comfortable with.
 
